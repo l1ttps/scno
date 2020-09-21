@@ -1,0 +1,130 @@
+h1 {
+    color: black;
+}
+
+h2 {
+    color: #0000007c;
+    margin-bottom: 20px;
+}
+
+span {
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+}
+
+label {
+    color: #365899;
+}
+
+label:hover {
+    color: #273550;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.show-edit-info {
+    display: none;
+}
+
+.current-info {
+    text-align: center;
+}
+
+.btn-edit {
+    float: right;
+}
+
+.btn-cancel {
+    float: right;
+    color: rgb(76, 77, 78);
+}
+
+.account-setting {
+    padding: 20px 20px 20px 20px;
+}
+
+.account-setting:hover {
+    background-color: #E9EBEE;
+    cursor: pointer;
+}
+
+body {
+    color: #3a414e;
+}
+
+#navbarSupportedContent {
+    color: black;
+}
+
+.hero-banner {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+#toggle {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/*------------------ input-------------------- */
+
+input {
+    margin-top: 10px;
+}
+
+
+/* mobile */
+
+@media (min-width: 360px) {
+    body {
+        padding: 0px;
+        font-size: 16px;
+        color: #3a414e;
+    }
+    b {
+        font-family: "Rajdhani", sans-serif;
+        color: #3a414e;
+        line-height: 1.25;
+        font-size: 18px;
+    }
+    .main-setting {
+        padding: 20px;
+        min-height: 500px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border-radius: 25px;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    }
+    .account-setting {
+        padding: 5px;
+    }
+}
+
+
+/* desktop */
+
+@media(min-width: 900px) {
+    #show-table-port-mobile {
+        display: none;
+    }
+    body {
+        color: #3a414e;
+    }
+    b {
+        font-family: "Rajdhani", sans-serif;
+        color: #3a414e;
+        line-height: 1.25;
+    }
+    .main-setting {
+        padding: 50px;
+        min-height: 500px;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.897);
+        border-radius: 25px;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    }
+    .account-setting {
+        padding: 0px 20px 0px 20px;
+    }
+}

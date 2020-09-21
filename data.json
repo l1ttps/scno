@@ -1,0 +1,1519 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "_doctype": "nmaprun",
+    "_instruction": {
+        "xml-stylesheet": "href=\"file:///usr/bin/../share/nmap/nmap.xsl\" type=\"text/xsl\""
+    },
+    "_comment": " Nmap 7.60 scan initiated Sun Nov 10 18:59:12 2019 as: nmap -oX - -T4 -A -v epu.edu.vn ",
+    "nmaprun": {
+        "_attributes": {
+            "scanner": "nmap",
+            "args": "nmap -oX - -T4 -A -v epu.edu.vn",
+            "start": "1573387152",
+            "startstr": "Sun Nov 10 18:59:12 2019",
+            "version": "7.60",
+            "xmloutputversion": "1.04"
+        },
+        "scaninfo": {
+            "_attributes": {
+                "type": "connect",
+                "protocol": "tcp",
+                "numservices": "1000",
+                "services": "1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"
+            }
+        },
+        "verbose": {
+            "_attributes": {
+                "level": "1"
+            }
+        },
+        "debugging": {
+            "_attributes": {
+                "level": "0"
+            }
+        },
+        "taskbegin": [{
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Ping Scan",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Parallel DNS resolution of 1 host.",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Connect Scan",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Service scan",
+                    "time": "1573387157"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387211"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            }
+        ],
+        "taskend": [{
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Ping Scan",
+                    "time": "1573387153",
+                    "extrainfo": "1 total hosts"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Parallel DNS resolution of 1 host.",
+                    "time": "1573387153"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Connect Scan",
+                    "time": "1573387157",
+                    "extrainfo": "1000 total ports"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "Service scan",
+                    "time": "1573387211",
+                    "extrainfo": "13 services on 1 host"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            },
+            {
+                "_attributes": {
+                    "task": "NSE",
+                    "time": "1573387223"
+                }
+            }
+        ],
+        "host": {
+            "_attributes": {
+                "starttime": "1573387153",
+                "endtime": "1573387223"
+            },
+            "status": {
+                "_attributes": {
+                    "state": "up",
+                    "reason": "syn-ack",
+                    "reason_ttl": "0"
+                }
+            },
+            "address": {
+                "_attributes": {
+                    "addr": "203.162.69.68",
+                    "addrtype": "ipv4"
+                }
+            },
+            "hostnames": {
+                "hostname": {
+                    "_attributes": {
+                        "name": "epu.edu.vn",
+                        "type": "user"
+                    }
+                }
+            },
+            "ports": {
+                "extraports": {
+                    "_attributes": {
+                        "state": "filtered",
+                        "count": "987"
+                    },
+                    "extrareasons": {
+                        "_attributes": {
+                            "reason": "no-responses",
+                            "count": "987"
+                        }
+                    }
+                },
+                "port": [{
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "21"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "ftp",
+                                "product": "FileZilla ftpd",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:filezilla-project:filezilla_server"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": {
+                            "_attributes": {
+                                "id": "ftp-syst",
+                                "output": "\n  SYST: UNIX emulated by FileZilla"
+                            },
+                            "elem": {
+                                "_attributes": {
+                                    "key": "SYST"
+                                },
+                                "_text": "UNIX emulated by FileZilla"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "25"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "smtp",
+                                "product": "MailEnable smptd",
+                                "version": "10.25--",
+                                "hostname": "MX6968.home",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:mailenable:mailenable:10.25--"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": {
+                            "_attributes": {
+                                "id": "smtp-commands",
+                                "output": "home [27.79.165.247], this server offers 4 extensions, AUTH LOGIN, SIZE 40960000, HELP, AUTH=LOGIN, \n 211 Help:->Supported Commands: HELO,EHLO,QUIT,HELP,RCPT,MAIL,DATA,RSET,NOOP "
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "53"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "domain",
+                                "product": "Microsoft DNS",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:microsoft:dns"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "80"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "http",
+                                "product": "Microsoft IIS httpd",
+                                "version": "8.5",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:microsoft:iis:8.5"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": [{
+                                "_attributes": {
+                                    "id": "http-methods",
+                                    "output": "\n  Supported Methods: GET HEAD POST OPTIONS"
+                                },
+                                "table": {
+                                    "_attributes": {
+                                        "key": "Supported Methods"
+                                    },
+                                    "elem": [{
+                                            "_text": "GET"
+                                        },
+                                        {
+                                            "_text": "HEAD"
+                                        },
+                                        {
+                                            "_text": "POST"
+                                        },
+                                        {
+                                            "_text": "OPTIONS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-server-header",
+                                    "output": "Microsoft-IIS/8.5"
+                                },
+                                "elem": {
+                                    "_text": "Microsoft-IIS/8.5"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-title",
+                                    "output": "Did not follow redirect to https://epu.edu.vn/"
+                                },
+                                "elem": {
+                                    "_attributes": {
+                                        "key": "redirect_url"
+                                    },
+                                    "_text": "https://epu.edu.vn/"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "110"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "pop3",
+                                "product": "MailEnable POP3 Server",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:mailenable:mailenable"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": {
+                            "_attributes": {
+                                "id": "pop3-capabilities",
+                                "output": "USER TOP UIDL"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "135"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "msrpc",
+                                "product": "Microsoft Windows RPC",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "143"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "imap",
+                                "product": "MailEnable imapd",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:mailenable:mailenable"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": {
+                            "_attributes": {
+                                "id": "imap-capabilities",
+                                "output": "IMAP4rev1 UIDPLUSA0001 AUTH=LOGIN CHILDREN completed OK IMAP4 AUTH=CRAM-MD5 CAPABILITY IDLE"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "443"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "http",
+                                "product": "Microsoft HTTPAPI httpd",
+                                "version": "2.0",
+                                "extrainfo": "SSDP/UPnP",
+                                "ostype": "Windows",
+                                "tunnel": "ssl",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        },
+                        "script": [{
+                                "_attributes": {
+                                    "id": "http-favicon",
+                                    "output": "Unknown favicon MD5: 9AF8993B70BB9B4DCEA3AB628191ED78"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-methods",
+                                    "output": "\n  Supported Methods: GET HEAD OPTIONS"
+                                },
+                                "table": {
+                                    "_attributes": {
+                                        "key": "Supported Methods"
+                                    },
+                                    "elem": [{
+                                            "_text": "GET"
+                                        },
+                                        {
+                                            "_text": "HEAD"
+                                        },
+                                        {
+                                            "_text": "OPTIONS"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-robots.txt",
+                                    "output": "3 disallowed entries \n/areas/ /adminit/* /bin/*"
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-server-header",
+                                    "output": "\n  Microsoft-HTTPAPI/2.0\n  Microsoft-IIS/8.5"
+                                },
+                                "elem": [{
+                                        "_text": "Microsoft-HTTPAPI/2.0"
+                                    },
+                                    {
+                                        "_text": "Microsoft-IIS/8.5"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "http-title",
+                                    "output": "        Tr\\xC6\\xB0\\xE1\\xBB\\x9Dng \\xC4\\x90\\xE1\\xBA\\xA1i H\\xE1\\xBB\\x8Dc \\xC4\\x90i\\xE1\\xBB\\x87n L\\xE1\\xBB\\xB1c | EPU    "
+                                },
+                                "elem": {
+                                    "_attributes": {
+                                        "key": "title"
+                                    },
+                                    "_text": "\\x0D\n        Tr\\xC6\\xB0\\xE1\\xBB\\x9Dng \\xC4\\x90\\xE1\\xBA\\xA1i H\\xE1\\xBB\\x8Dc \\xC4\\x90i\\xE1\\xBB\\x87n L\\xE1\\xBB\\xB1c | EPU\\x0D\n    "
+                                }
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "ssl-cert",
+                                    "output": "Subject: commonName=*.epu.edu.vn\nSubject Alternative Name: DNS:*.epu.edu.vn, DNS:epu.edu.vn\nIssuer: commonName=RapidSSL RSA CA 2018/organizationName=DigiCert Inc/countryName=US\nPublic Key type: rsa\nPublic Key bits: 2048\nSignature Algorithm: sha256WithRSAEncryption\nNot valid before: 2018-10-04T00:00:00\nNot valid after:  2020-10-03T12:00:00\nMD5:   3bff 0cf8 92ce c90c b315 26c0 9f20 bcb9\nSHA-1: 3323 166c 8292 ecfc 2e9c 9fe2 8c02 9520 200f 4785"
+                                },
+                                "table": [{
+                                        "_attributes": {
+                                            "key": "subject"
+                                        },
+                                        "elem": {
+                                            "_attributes": {
+                                                "key": "commonName"
+                                            },
+                                            "_text": "*.epu.edu.vn"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "issuer"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "commonName"
+                                                },
+                                                "_text": "RapidSSL RSA CA 2018"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "countryName"
+                                                },
+                                                "_text": "US"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "organizationalUnitName"
+                                                },
+                                                "_text": "www.digicert.com"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "organizationName"
+                                                },
+                                                "_text": "DigiCert Inc"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pubkey"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "type"
+                                                },
+                                                "_text": "rsa"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "bits"
+                                                },
+                                                "_text": "2048"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "exponent"
+                                                },
+                                                "_text": "userdata: 0x55c75ed8d008"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "extensions"
+                                        },
+                                        "table": [{
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Authority Key Identifier"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "keyid:53:CA:17:59:FC:6B:C0:03:21:2F:1A:AE:E4:AA:A8:1C:82:56:DA:75\n"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Subject Key Identifier"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "AF:B3:80:47:03:65:90:50:9D:FF:01:8C:53:83:20:BA:77:84:55:0E"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Subject Alternative Name"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "DNS:*.epu.edu.vn, DNS:epu.edu.vn"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "critical"
+                                                        },
+                                                        "_text": "true"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Key Usage"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "Digital Signature, Key Encipherment"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Extended Key Usage"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "TLS Web Server Authentication, TLS Web Client Authentication"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 CRL Distribution Points"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "\nFull Name:\n  URI:http://cdp.rapidssl.com/RapidSSLRSACA2018.crl\n"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Certificate Policies"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "Policy: 2.16.840.1.114412.1.2\n  CPS: https://www.digicert.com/CPS\nPolicy: 2.23.140.1.2.1\n"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "Authority Information Access"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "OCSP - URI:http://status.rapidssl.com\nCA Issuers - URI:http://cacerts.rapidssl.com/RapidSSLRSACA2018.crt\n"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Basic Constraints"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "CA:FALSE"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "CT Precertificate SCTs"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "Signed Certificate Timestamp:\n    Version   : v1 (0x0)\n    Log ID    : A4:B9:09:90:B4:18:58:14:87:BB:13:A2:CC:67:70:0A:\n                3C:35:98:04:F9:1B:DF:B8:E3:77:CD:0E:C8:0D:DC:10\n    Timestamp : Oct  4 08:33:16.907 2018 GMT\n    Extensions: none\n    Signature : ecdsa-with-SHA256\n                30:46:02:21:00:90:D0:2F:D8:AF:76:91:FE:22:22:A0:\n                15:CF:13:D0:CC:1B:E0:96:0C:17:46:67:2D:B5:99:C1:\n                B1:A3:C8:0C:F0:02:21:00:EF:47:39:5A:52:FA:ED:5C:\n                5D:C7:5A:10:40:FC:09:AC:12:BA:CF:60:33:91:F9:4C:\n                44:36:CA:E3:2E:FB:3A:0F\nSigned Certificate Timestamp:\n    Version   : v1 (0x0)\n    Log ID    : 87:75:BF:E7:59:7C:F8:8C:43:99:5F:BD:F3:6E:FF:56:\n                8D:47:56:36:FF:4A:B5:60:C1:B4:EA:FF:5E:A0:83:0F\n    Timestamp : Oct  4 08:33:17.091 2018 GMT\n    Extensions: none\n    Signature : ecdsa-with-SHA256\n                30:45:02:20:30:88:54:A3:B3:11:BC:E2:C5:F9:66:DF:\n                77:A9:52:4F:86:14:E7:AB:60:14:B4:45:37:B7:43:37:\n                12:59:59:D9:02:21:00:CB:C2:83:59:AD:D9:AA:E9:B3:\n                C7:A3:A2:6C:62:B9:79:9A:3B:B8:25:AD:FC:23:DC:8E:\n                18:65:72:19:50:F5:A4\nSigned Certificate Timestamp:\n    Version   : v1 (0x0)\n    Log ID    : BB:D9:DF:BC:1F:8A:71:B5:93:94:23:97:AA:92:7B:47:\n                38:57:95:0A:AB:52:E8:1A:90:96:64:36:8E:1E:D1:85\n    Timestamp : Oct  4 08:33:17.113 2018 GMT\n    Extensions: none\n    Signature : ecdsa-with-SHA256\n                30:45:02:20:45:13:CF:C0:A3:C3:1D:96:A0:C9:78:E5:\n                30:27:6C:32:23:CF:71:AF:45:D3:D6:9A:6A:6D:46:CC:\n                86:E9:9F:6D:02:21:00:82:D5:3D:B9:EB:E8:55:E3:30:\n                E0:BD:4E:01:0A:6C:2C:F3:E3:EF:76:9F:45:24:52:DB:\n                81:57:41:02:3E:31:70"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "validity"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "notBefore"
+                                                },
+                                                "_text": "2018-10-04T00:00:00"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "notAfter"
+                                                },
+                                                "_text": "2020-10-03T12:00:00"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "sig_algo"
+                                        },
+                                        "_text": "sha256WithRSAEncryption"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "md5"
+                                        },
+                                        "_text": "3bff0cf892cec90cb31526c09f20bcb9"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "sha1"
+                                        },
+                                        "_text": "3323166c8292ecfc2e9c9fe28c029520200f4785"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pem"
+                                        },
+                                        "_text": "-----BEGIN CERTIFICATE-----\nMIIGLDCCBRSgAwIBAgIQBKj/EQcyqvllOAlkyaUrPzANBgkqhkiG9w0BAQsFADBe\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe\nFw0xODEwMDQwMDAwMDBaFw0yMDEwMDMxMjAwMDBaMBcxFTATBgNVBAMMDCouZXB1\nLmVkdS52bjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALuTyjs0CBiT\neCVNgno6B4CibQjVPDtCWAPg5CE3YKkoEgscXy6hhAcMgHDM8mU9rzpS5hHUOsO4\nAWZwQrfPAokVcdS2pSNxRsiK434QIB2mrhQ6zN4jKb6eSK+oTM+aDsNPWx2qn0vT\nydSRtJRmxmI1vuqPwFa66TFFvtz/N8C2J919kipUobOdbpaWHnwlwucpW0nN9XPI\nXtvBo6yGeP1lhSAYfYVX5gFy5mzDixPTRSqm4tN5jpAn/oVNIF8ZC9EPlXA5H3d9\nc0cQPtcDKUbVhztsOq9YK7+HmVpAmaSCzGRsuHfQyTfR7VilA7sBLEDIQH3Y45AS\nYSpkHh7qeNkCAwEAAaOCAyswggMnMB8GA1UdIwQYMBaAFFPKF1n8a8ADIS8aruSq\nqByCVtp1MB0GA1UdDgQWBBSvs4BHA2WQUJ3/AYxTgyC6d4RVDjAjBgNVHREEHDAa\nggwqLmVwdS5lZHUudm6CCmVwdS5lZHUudm4wDgYDVR0PAQH/BAQDAgWgMB0GA1Ud\nJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+BgNVHR8ENzA1MDOgMaAvhi1odHRw\nOi8vY2RwLnJhcGlkc3NsLmNvbS9SYXBpZFNTTFJTQUNBMjAxOC5jcmwwTAYDVR0g\nBEUwQzA3BglghkgBhv1sAQIwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGln\naWNlcnQuY29tL0NQUzAIBgZngQwBAgEwdQYIKwYBBQUHAQEEaTBnMCYGCCsGAQUF\nBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3NsLmNvbTA9BggrBgEFBQcwAoYxaHR0\ncDovL2NhY2VydHMucmFwaWRzc2wuY29tL1JhcGlkU1NMUlNBQ0EyMDE4LmNydDAJ\nBgNVHRMEAjAAMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwCkuQmQtBhYFIe7\nE6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWY+NaxrAAAEAwBIMEYCIQCQ0C/Yr3aR\n/iIioBXPE9DMG+CWDBdGZy21mcGxo8gM8AIhAO9HOVpS+u1cXcdaEED8CawSus9g\nM5H5TEQ2yuMu+zoPAHYAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8A\nAAFmPjWtIwAABAMARzBFAiAwiFSjsxG84sX5Zt93qVJPhhTnq2AUtEU3t0M3EllZ\n2QIhAMvCg1mt2arps8ejomxiuXmaO7glrfwj3I4YZXIZUPWkAHYAu9nfvB+KcbWT\nlCOXqpJ7RzhXlQqrUugakJZkNo4e0YUAAAFmPjWtOQAABAMARzBFAiBFE8/Ao8Md\nlqDJeOUwJ2wyI89xr0XT1ppqbUbMhumfbQIhAILVPbnr6FXjMOC9TgEKbCzz4+92\nn0UkUtuBV0ECPjFwMA0GCSqGSIb3DQEBCwUAA4IBAQDM1j7doc7SllKPcbdecqxo\nr02u30seL+sLCxxGn8g2r1SHmT/7CooGtDdgz8dd9DMU1JuhDoLz1OTm26EHTV+Y\nG1P0kQAQPB/1kP22tzd0G29yUELUsxeDC0jGVxtvtMUK9WQfKu7UBMwYMrJxA+Qt\n1sUzlTZHEcx/+3z1Wh58DBocV0l03Mj1IXoY+GelGWvV5CMqm9nvO5tE6QmnexjB\nZBRWpD+DLb9HRzm5xuqdDWXtx80NxXD5v8je2ffxRjvwjO9h4tTKIaNmw336WoKi\nhHyEYr7J3TS7IPXzPJTv2AfPTkSFGEGMKkUzj7/8S6OGn292M3zLqvtg5jJb7Exv\n-----END CERTIFICATE-----\n"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "1433"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "ms-sql-s",
+                                "product": "Microsoft SQL Server 2014",
+                                "version": "12.00.5000.00; SP2",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": [{
+                                    "_text": "cpe:/a:microsoft:sql_server:2014:sp2"
+                                },
+                                {
+                                    "_text": "cpe:/o:microsoft:windows"
+                                }
+                            ]
+                        },
+                        "script": [{
+                                "_attributes": {
+                                    "id": "ms-sql-ntlm-info",
+                                    "output": "\n  Target_Name: MX6968\n  NetBIOS_Domain_Name: MX6968\n  NetBIOS_Computer_Name: MX6968\n  DNS_Domain_Name: MX6968\n  DNS_Computer_Name: MX6968\n  Product_Version: 6.3.9600"
+                                },
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "Target_Name"
+                                        },
+                                        "_text": "MX6968"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "NetBIOS_Domain_Name"
+                                        },
+                                        "_text": "MX6968"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "NetBIOS_Computer_Name"
+                                        },
+                                        "_text": "MX6968"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "DNS_Domain_Name"
+                                        },
+                                        "_text": "MX6968"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "DNS_Computer_Name"
+                                        },
+                                        "_text": "MX6968"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "Product_Version"
+                                        },
+                                        "_text": "6.3.9600"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "ssl-cert",
+                                    "output": "Subject: commonName=SSL_Self_Signed_Fallback\nIssuer: commonName=SSL_Self_Signed_Fallback\nPublic Key type: rsa\nPublic Key bits: 1024\nSignature Algorithm: sha1WithRSAEncryption\nNot valid before: 2019-08-20T01:06:15\nNot valid after:  2049-08-20T01:06:15\nMD5:   b903 b388 efe4 989b 3844 0544 b9dc 22d5\nSHA-1: f681 5c3f 7b9e ec93 d450 9c3f df0b a976 6153 55fa"
+                                },
+                                "table": [{
+                                        "_attributes": {
+                                            "key": "subject"
+                                        },
+                                        "elem": {
+                                            "_attributes": {
+                                                "key": "commonName"
+                                            },
+                                            "_text": "\\x00S\\x00S\\x00L\\x00_\\x00S\\x00e\\x00l\\x00f\\x00_\\x00S\\x00i\\x00g\\x00n\\x00e\\x00d\\x00_\\x00F\\x00a\\x00l\\x00l\\x00b\\x00a\\x00c\\x00k"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "issuer"
+                                        },
+                                        "elem": {
+                                            "_attributes": {
+                                                "key": "commonName"
+                                            },
+                                            "_text": "\\x00S\\x00S\\x00L\\x00_\\x00S\\x00e\\x00l\\x00f\\x00_\\x00S\\x00i\\x00g\\x00n\\x00e\\x00d\\x00_\\x00F\\x00a\\x00l\\x00l\\x00b\\x00a\\x00c\\x00k"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pubkey"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "type"
+                                                },
+                                                "_text": "rsa"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "bits"
+                                                },
+                                                "_text": "1024"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "exponent"
+                                                },
+                                                "_text": "userdata: 0x55c75f5f10c8"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "validity"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "notBefore"
+                                                },
+                                                "_text": "2019-08-20T01:06:15"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "notAfter"
+                                                },
+                                                "_text": "2049-08-20T01:06:15"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "sig_algo"
+                                        },
+                                        "_text": "sha1WithRSAEncryption"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "md5"
+                                        },
+                                        "_text": "b903b388efe4989b38440544b9dc22d5"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "sha1"
+                                        },
+                                        "_text": "f6815c3f7b9eec93d4509c3fdf0ba976615355fa"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pem"
+                                        },
+                                        "_text": "-----BEGIN CERTIFICATE-----\nMIIB+TCCAWKgAwIBAgIQM4GhhxZ7KbtPIJ8hFMYaBjANBgkqhkiG9w0BAQUFADA7\nMTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA\nbABsAGIAYQBjAGswHhcNMTkwODIwMDEwNjE1WhcNNDkwODIwMDEwNjE1WjA7MTkw\nNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEAbABs\nAGIAYQBjAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKPcrb5I8mezAlXC\ndFWw2j8sd0+Pdh624bgn48ga3jfo1YTLdDWkRMCUjMssyGX6xX4HMM1OVKJbId2q\nveLFxdFhTbkfcqWEDdR/P+Mx+6PY6x3xEnffmTr/1xU6QEHJtYtKsickagKmGngU\nWSJLE0O4mKjQL+uLQr0Jo1vZt6pBAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAbLSr\n0ZUSdHlZiorl+kE3T+zai6HdfjIlRCUhFb9E6ea2fq/ovv2fXctaQeIUs2ZOZjtR\nT7ma9cp5NSqCj+KyZOchMexybuTRpf6ETzN2z4eYpHSk/3Ox/xsOKIaCgSSZtTEN\n8lXP72DDyULsv63gDXFr8++O+abgQ89dGTqChCg=\n-----END CERTIFICATE-----\n"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "ssl-date",
+                                    "output": "2019-11-10T12:00:12+00:00; -1s from scanner time."
+                                },
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "delta"
+                                        },
+                                        "_text": "-1.0"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "date"
+                                        },
+                                        "_text": "2019-11-10T12:00:12+00:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "3389"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "ms-wbt-server",
+                                "product": "Microsoft Terminal Service",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        },
+                        "script": [{
+                                "_attributes": {
+                                    "id": "ssl-cert",
+                                    "output": "Subject: commonName=MX6968\nIssuer: commonName=MX6968\nPublic Key type: rsa\nPublic Key bits: 2048\nSignature Algorithm: sha1WithRSAEncryption\nNot valid before: 2019-08-24T10:50:35\nNot valid after:  2020-02-23T10:50:35\nMD5:   bf4c 1d75 17c1 81d3 3750 2424 3f4a d02d\nSHA-1: 6df0 f663 566e 68cd 4b8e 7bab 0ab2 9632 dac2 0256"
+                                },
+                                "table": [{
+                                        "_attributes": {
+                                            "key": "subject"
+                                        },
+                                        "elem": {
+                                            "_attributes": {
+                                                "key": "commonName"
+                                            },
+                                            "_text": "MX6968"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "issuer"
+                                        },
+                                        "elem": {
+                                            "_attributes": {
+                                                "key": "commonName"
+                                            },
+                                            "_text": "MX6968"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pubkey"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "type"
+                                                },
+                                                "_text": "rsa"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "bits"
+                                                },
+                                                "_text": "2048"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "exponent"
+                                                },
+                                                "_text": "userdata: 0x55c75f6f59e8"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "extensions"
+                                        },
+                                        "table": [{
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Extended Key Usage"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "TLS Web Server Authentication"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "elem": [{
+                                                        "_attributes": {
+                                                            "key": "name"
+                                                        },
+                                                        "_text": "X509v3 Key Usage"
+                                                    },
+                                                    {
+                                                        "_attributes": {
+                                                            "key": "value"
+                                                        },
+                                                        "_text": "Key Encipherment, Data Encipherment"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "validity"
+                                        },
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "notBefore"
+                                                },
+                                                "_text": "2019-08-24T10:50:35"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "notAfter"
+                                                },
+                                                "_text": "2020-02-23T10:50:35"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "sig_algo"
+                                        },
+                                        "_text": "sha1WithRSAEncryption"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "md5"
+                                        },
+                                        "_text": "bf4c1d7517c181d3375024243f4ad02d"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "sha1"
+                                        },
+                                        "_text": "6df0f663566e68cd4b8e7bab0ab29632dac20256"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "pem"
+                                        },
+                                        "_text": "-----BEGIN CERTIFICATE-----\nMIIC0DCCAbigAwIBAgIQNJohqjvTOLJC44Q11qiqrjANBgkqhkiG9w0BAQUFADAR\nMQ8wDQYDVQQDEwZNWDY5NjgwHhcNMTkwODI0MTA1MDM1WhcNMjAwMjIzMTA1MDM1\nWjARMQ8wDQYDVQQDEwZNWDY5NjgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQCiyeN8k2YrhrI0f+WjqOZi2TC2n2PDq2fHEX4zAGqJtknHI5/7gp+YX30z\nec/iQgnC1dz6+XKBvFm+R6Bi6U9nOR00dUiCgmxLzaR1zK9a7Qr1kgWRUTA28+WM\nnEVfHJDDAeLPtyv0aqRA/AW2Cde1DrXDIYzYxp6Hlmn16IVyyQsiweeSMNAyCOLA\nqL1buxR64EhX7Q4WUVbrguoO9C76AhQOCzOGHfpOuDNUbmWRlOc6Ua1CDMUu0ehc\nsa/oAPu3NqMMdtwbVr841J1m1flbgrPHFYBK1Rf/85WBMed8ebWkZ4r5u2FI8/HY\n7dnB+LvDlSM/LQ9qS7nddutkEmfVAgMBAAGjJDAiMBMGA1UdJQQMMAoGCCsGAQUF\nBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQUFAAOCAQEAYcGfBP8vLTlypX9Q\nAxHZEJVNjf386n3rNbVkfj6vx0ZRChrm9WQ1ipVxbgmTnVK9dYLWLL0u2HZVVdIA\ncw1SsXiU4jPKAyRYB5Z2hN8A8oZfl/8JigfRzXgUJOP+ELrp2N9rpt9OXZ6r4gxb\nHAEouDJ088NHlcxlv+Slt+M/qbJyFhWMeiMTyR2i6Zy9P7d80ch1jeSWZw/E8GGw\nNXcGpDMw8uiZAos2unqrh8ZpGZovV8QJN3Bt38jYOk/ASBX2YfJXiHI1bzYL4n4z\noLkSrFLY1Z3Ld9z66xmyjYZqaB7pcDmu+8+IPOBQq7NPZS2IODdjiyhfrATViZBd\nniCJEw==\n-----END CERTIFICATE-----\n"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "id": "ssl-date",
+                                    "output": "2019-11-10T12:00:10+00:00; -2s from scanner time."
+                                },
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "delta"
+                                        },
+                                        "_text": "-2.0"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "date"
+                                        },
+                                        "_text": "2019-11-10T12:00:10+00:00"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "49154"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "msrpc",
+                                "product": "Microsoft Windows RPC",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "49155"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "msrpc",
+                                "product": "Microsoft Windows RPC",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "protocol": "tcp",
+                            "portid": "49156"
+                        },
+                        "state": {
+                            "_attributes": {
+                                "state": "open",
+                                "reason": "syn-ack",
+                                "reason_ttl": "0"
+                            }
+                        },
+                        "service": {
+                            "_attributes": {
+                                "name": "msrpc",
+                                "product": "Microsoft Windows RPC",
+                                "ostype": "Windows",
+                                "method": "probed",
+                                "conf": "10"
+                            },
+                            "cpe": {
+                                "_text": "cpe:/o:microsoft:windows"
+                            }
+                        }
+                    }
+                ]
+            },
+            "hostscript": {
+                "script": [{
+                        "_attributes": {
+                            "id": "clock-skew",
+                            "output": "mean: -1s, deviation: 0s, median: -1s"
+                        },
+                        "elem": [{
+                                "_attributes": {
+                                    "key": "median"
+                                },
+                                "_text": "-1"
+                            },
+                            {
+                                "_attributes": {
+                                    "key": "mean"
+                                },
+                                "_text": "-1"
+                            },
+                            {
+                                "_attributes": {
+                                    "key": "stddev"
+                                },
+                                "_text": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "id": "ms-sql-info",
+                            "output": "\n  203.162.69.68:1433: \n    Version: \n      name: Microsoft SQL Server 2014 SP2\n      number: 12.00.5000.00\n      Product: Microsoft SQL Server 2014\n      Service pack level: SP2\n      Post-SP patches applied: false\n    TCP port: 1433"
+                        },
+                        "table": {
+                            "_attributes": {
+                                "key": "203.162.69.68:1433"
+                            },
+                            "table": {
+                                "_attributes": {
+                                    "key": "Version"
+                                },
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "name"
+                                        },
+                                        "_text": "Microsoft SQL Server 2014 SP2"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "number"
+                                        },
+                                        "_text": "12.00.5000.00"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "Product"
+                                        },
+                                        "_text": "Microsoft SQL Server 2014"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "Service pack level"
+                                        },
+                                        "_text": "SP2"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "Post-SP patches applied"
+                                        },
+                                        "_text": "false"
+                                    }
+                                ]
+                            },
+                            "elem": {
+                                "_attributes": {
+                                    "key": "TCP port"
+                                },
+                                "_text": "1433"
+                            }
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "id": "nbstat",
+                            "output": "NetBIOS name: MX6968, NetBIOS user: <unknown>, NetBIOS MAC: ac:1f:6b:1e:a8:2c (Super Micro Computer)\nNames:\n  WORKGROUP<00>        Flags: <group><active>\n  MX6968<00>           Flags: <unique><active>\n  MX6968<20>           Flags: <unique><active>"
+                        },
+                        "table": [{
+                                "_attributes": {
+                                    "key": "statistics"
+                                },
+                                "elem": [{
+                                        "_text": "ac 1f 6b 1e a8 2c 00 00 00 00 00 00 00 00 00 00 00"
+                                    },
+                                    {
+                                        "_text": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+                                    },
+                                    {
+                                        "_text": "00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "key": "mac"
+                                },
+                                "elem": [{
+                                        "_attributes": {
+                                            "key": "address"
+                                        },
+                                        "_text": "ac:1f:6b:1e:a8:2c"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "key": "manuf"
+                                        },
+                                        "_text": "Super Micro Computer"
+                                    }
+                                ]
+                            },
+                            {
+                                "_attributes": {
+                                    "key": "names"
+                                },
+                                "table": [{
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "flags"
+                                                },
+                                                "_text": "33792"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "suffix"
+                                                },
+                                                "_text": "0"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "name"
+                                                },
+                                                "_text": "WORKGROUP"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "flags"
+                                                },
+                                                "_text": "1024"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "suffix"
+                                                },
+                                                "_text": "0"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "name"
+                                                },
+                                                "_text": "MX6968"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "elem": [{
+                                                "_attributes": {
+                                                    "key": "flags"
+                                                },
+                                                "_text": "1024"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "suffix"
+                                                },
+                                                "_text": "32"
+                                            },
+                                            {
+                                                "_attributes": {
+                                                    "key": "name"
+                                                },
+                                                "_text": "MX6968"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "elem": [{
+                                "_attributes": {
+                                    "key": "server_name"
+                                },
+                                "_text": "MX6968"
+                            },
+                            {
+                                "_attributes": {
+                                    "key": "user"
+                                },
+                                "_text": "<unknown>"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "times": {
+                "_attributes": {
+                    "srtt": "30767",
+                    "rttvar": "2592",
+                    "to": "100000"
+                }
+            }
+        },
+        "runstats": {
+            "finished": {
+                "_attributes": {
+                    "time": "1573387223",
+                    "timestr": "Sun Nov 10 19:00:23 2019",
+                    "elapsed": "70.35",
+                    "summary": "Nmap done at Sun Nov 10 19:00:23 2019; 1 IP address (1 host up) scanned in 70.35 seconds",
+                    "exit": "success"
+                }
+            },
+            "hosts": {
+                "_attributes": {
+                    "up": "1",
+                    "down": "0",
+                    "total": "1"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scan Network Online</title>
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/scans.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    <% include header.ejs%>
+        <!--================Header Menu Area =================-->
+
+
+        <main class="side-main">
+
+            <section class="hero-banner">
+
+
+                <div class="container">
+                    <div class="tool-name">
+                        <h1 style="text-align: center;">Scan Network</h1>
+                        <h3 style="text-align: center;">powered by Nmap</h3>
+                    </div>
+
+                    <div class="row" style="padding: 20px;">
+                        <div class="col-md-11">
+                            <div class="form-group">
+                                <input style="text-align: center;" class="form-control" id="url" placeholder="Hostname or IP" value="epu.edu.vn">
+                                <br />
+                                <div style="text-align: center;" id="url-invalid"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-1" style="text-align: center;">
+                            <button type="button" id="btn_scan" class="btn btn-primary  ">Scan</button>
+                        </div>
+
+                    </div>
+                    <div class="checkbox" style="text-align: center;">
+                        <input id='tick' type="checkbox" name="vehicle1" value="ok">
+                        <label for='tick'>
+                        <span id="text_check_box">
+                            <b>Agree to our terms of use and privacy policy</b>
+                        </span>
+                    </label>
+                    </div>
+
+
+                </div>
+                <div class="container">
+                    <div class="resuilt">
+                        <h2>Result</h2>
+                        <span id="status"></span>
+                        <span id="totaltime"></span>
+                        <span id="location"></span>
+                        <span id="ipadd"></span>
+                        <span id="isp"></span>
+                        <span id="hostname"></span>
+                        <span id="total-port-open"></span>
+                        <div id="tables-port">
+                            <table class="table table-bordered" id="tables-port-desktop">
+                                </tbody>
+                            </table>
+                            <div id="show-table-port-mobile">
+                                rfreer
+                            </div>
+                        </div>
+
+                        <div id="cache-xml" style="text-align: justify;"></div>
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+        <% include footer.ejs%>
+            <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+            <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+            <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+            <script src="js/jquery.ajaxchimp.min.js"></script>
+            <script src="js/mail-script.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/tools/scan-network.js"></script>
+</body>
+
+</html>

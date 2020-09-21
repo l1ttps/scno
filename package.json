@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "cheerio": "^1.0.0-rc.3",
+        "cookie-parser": "^1.4.4",
+        "dotenv": "^8.2.0",
+        "ejs": "^2.7.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "md5": "^2.2.1",
+        "moment": "^2.24.0",
+        "mongoose": "^5.7.8",
+        "node-nmap": "^4.0.0",
+        "nodemailer": "^6.3.1",
+        "sha256": "^0.2.0",
+        "xml-js": "^1.6.11",
+        "zaproxy": "^1.0.1"
+    }
+}

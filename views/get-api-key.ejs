@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Your API Key</title>
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/get-api-key.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    <% include header.ejs%>
+        <!--================Header Menu Area =================-->
+
+
+        <main class="side-main">
+
+            <section class="hero-banner">
+
+
+                <div class="container">
+                    <div class="tool-name">
+                        <h1 style="text-align: center;">API Key</h1>
+                        <h5 style="text-align: center;">Cache: <code>No</code> <i id="toggle" class="fas fa-toggle-off"></i></h5>
+                        <h5 style="text-align: center;">Testing Mode: <code>Enable</code> <i id="toggle" class="fas fa-toggle-on"></i></h5>
+
+
+                    </div>
+                    <div class="api-key">
+                        <div id="show-api-key"><code><%= api_key %></code></div>
+                        <b>Account Type: </b> <span>Free</span><br>
+                        <b>Daily Quota: </b> <span>5 resquests/day</span><br>
+                        <b>Data Type: </b> <code>JSON, XML</code><br>
+                        <b>Method: </b> <span>  GET -  </span><code>/{services}?key={your-api-key}/{data-type}</code><br>
+                        <b>Expiration Date :</b> <span>Never</span><br>
+                        <b>Get URL Example :</b> <button class="btn btn-default btn-sm">Scan Network</button>
+                        <br>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </section>
+        </main>
+        <% include footer.ejs%>
+            <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+            <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+            <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+            <script src="js/jquery.ajaxchimp.min.js"></script>
+            <script src="js/mail-script.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/tools/scan-network.js"></script>
+</body>
+
+</html>

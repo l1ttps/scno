@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Setting</title>
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/setting.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+</head>
+
+
+<body>
+    <% include header.ejs%>
+        <!--================Header Menu Area =================-->
+
+
+        <main class="side-main">
+
+            <section class="hero-banner">
+
+
+                <div class="container">
+                    <div class="tool-name">
+                        <h1 style="text-align: center;">Settings</h1>
+
+
+
+                    </div>
+                    <div class="main-setting">
+                        <h2>Account Setting</h2>
+                        <hr>
+                        <div id="name" class="account-setting">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <b>Name: </b>
+                                </div>
+                                <div class="col-md-10">
+                                    <a id="display_name" value="<%=display_name%>"><span> <%=display_name%></span></a>
+                                    <label value="name" class="btn-edit"><i class="fas fa-edit"></i> Edit</label>
+                                </div>
+
+                            </div>
+                            <div id="edit-name" class="show-edit-info">
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-10">
+                                        <button style="margin: 5px 0px 5px 0px;" class="btn btn-primary btn-sm">Change</button>
+                                        <label class="btn-cancel">Cancel</label>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="email" class="account-setting">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <b>Email: </b>
+                                </div>
+
+                                <div id="12321" class="col-md-10">
+                                    <span id="display_name"> <%=email%></span>
+                                    <label value="email" class="btn-edit"><i class="fas fa-edit"></i> Edit</label>
+                                </div>
+
+                            </div>
+                            <div id="edit-name" class="show-edit-info">
+                                <hr>
+                                <button style="margin: 5px 0px 5px 0px;" class="btn btn-primary btn-sm">Change</button>
+                                <label class="btn-cancel">Cancel</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </section>
+        </main>
+        <% include footer.ejs%>
+
+
+            <script src="js/settings.js"></script>
+</body>
+
+</html>
